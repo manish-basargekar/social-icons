@@ -54,6 +54,11 @@ body {
 	overflow: hidden;
 }
 
+.desc{
+    padding: .5rem;
+    margin-top: 2rem;
+    font-size: 4rem;
+}
 
 
 .Footer {
