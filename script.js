@@ -7,13 +7,6 @@ circle.addEventListener("mouseover", function () {
 	emailInnerCircle.style.color = "#111827";
 	emailCircle.style.transition = "background-color .2s ease-out";
 });
-circle.addEventListener("click", function () {
-	console.log("clicked");
-	const copyText = "hey@manishbasargekar@gmail.com";
-	copyToClipboard(copyText);
-	// emailInnerCircle.style.backgroundColor = "yellow"
-	// emailInnerCircle.style.transition = "background-color .2s ease-out";
-});
 circle.addEventListener("mouseout", function () {
 	emailCircle.style.backgroundColor = "#1F2937";
 	emailInnerCircle.style.color = "transparent";
